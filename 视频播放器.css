@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.outerNode{
+    width: 540px;
+    height: 332px;
+    box-shadow: 0 0 4px #5b606d;
+    position: absolute;
+    margin: -116px 0 0 -270px;
+    left: 50%;
+    top: 50%;
+    background: black;
+}
+.outerNode .videoNode{
+    width: 540px;
+    height: 305px;
+}
+.outerNode .controlsNode{
+    width: 540px;
+    height: 27px;
+    float: left;
+    background: url("Images/ctrs_bg.gif") repeat-x;
+}
+.outerNode .controlsNode .playNode{
+    float: left;
+    width: 15px;
+    height: 17px;
+    margin: 6px 0 0 14px;
+    background: url("Images/playNode.png") no-repeat;
+    cursor: pointer;
+}
+.outerNode .controlsNode .pauseNode{
+    float: left;
+    width: 15px;
+    height: 17px;
+    margin: 6px 0 0 14px;
+    background: url("Images/pause.png") no-repeat;
+    cursor: pointer;
+}
+.outerNode .controlsNode .loadNode{
+    float: left;
+    width: 267px;
+    height: 10px;
+    margin: 9px 0 0 14px;
+    background: url("Images/load_bg.png") repeat-x;
+    position: relative;
+}
+.outerNode .controlsNode .loadNode .lineNode{
+    width: 0;
+    height: 7px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    background: url("Images/line_bg.png") repeat-x;
+}
+.outerNode .controlsNode .loadNode .lineNode .lineRight{
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("Images/line_r_bg.png") no-repeat;
+}
+.outerNode .controlsNode .loadNode .loadLeft{
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 0;
+    top: 0;
+    background: url("Images/left_bg.png") no-repeat;
+}
+.outerNode .controlsNode .loadNode .loadRight{
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    right: 0;
+    top: 0;
+    background: url("Images/right_bg.png") no-repeat;
+}
+.outerNode .controlsNode .loadNode .crlNode{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -8.5px;
+    top: -1.5px;
+    background: url("Images/crl_bg.png") no-repeat;
+    cursor: pointer;
+    z-index: 5;
+}
+.outerNode .controlsNode .timeNode{
+    width: 65px;
+    height: 10px;
+    float: left;
+    margin: 9px 0 0 9px;
+}
+.outerNode .controlsNode .timeNode span{
+    float: left;
+    font-size: 10px;
+    line-height: 10px;
+    color: white;
+}
+.outerNode .controlsNode .volumeNode{
+    float: left;
+    width: 17px;
+    height: 16px;
+    margin: 5px 0 0 16px;
+    background: url("Images/volume_bg.png");
+}
+.outerNode .controlsNode .volumeLine{
+    width: 61px;
+    height: 8px;
+    float: left;
+    margin: 10px 0 0 4px;
+    background: url("Images/volumeLine_bg.png") repeat-x;
+    position: relative;
+}
+.outerNode .controlsNode .volumeLine .v_left{
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: url("Images/v_left.png") no-repeat;
+    left: 0;
+    top: 0;
+}
+.outerNode .controlsNode .volumeLine .v_right{
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: url("Images/v_right.png") no-repeat;
+    right: 0;
+    top: 0;
+}
+.outerNode .controlsNode .volumeLine .dragNode{
+    width: 15px;
+    height: 13px;
+    float: left;
+    left: 58px;
+    top: -3.5px;
+    background: url("Images/vo_d.png") no-repeat;
+    position: absolute;
+    cursor: pointer;
+}
+.outerNode .controlsNode .fullNode{
+    width: 15px;
+    height: 17px;
+    float: left;
+    margin: 6px 0 0 35px;
+    background: url("Images/full_bg.png") no-repeat;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.outerNode .controlsNode .fullNode:hover{
+    background: url("Images/full_hover_bg.png") no-repeat;
+}
+

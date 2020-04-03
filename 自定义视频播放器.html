@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义视频播放器</title>
+    <link rel="stylesheet" href="视频播放器.css">
+</head>
+<body>
+<div class="outerNode">
+    <video poster="Images/1.png" class="videoNode"
+           src="video/周杰伦-说好不哭%20(with%20五月天阿信)(超清).mp4">
+    </video>
+    <div class="controlsNode">
+        <div class="playNode"></div>
+        <div class="loadNode">
+            <div class="loadLeft"></div>
+            <div class="loadRight"></div>
+            <div class="crlNode"></div>
+            <div class="lineNode">
+                <div class="lineRight"></div>
+            </div>
+        </div>
+        <div class="timeNode">
+            <span class="now">00:00</span>
+            <span> - </span>
+            <span class="all">3:58</span>
+        </div>
+        <div class="volumeNode"></div>
+        <div class="volumeLine">
+            <div class="v_left"></div>
+            <div class="v_right"></div>
+            <div class="dragNode"></div>
+        </div>
+        <div class="fullNode"></div>
+    </div>
+</div>
+<script src="视频播放器.js"></script>
+</body>
+</html>
